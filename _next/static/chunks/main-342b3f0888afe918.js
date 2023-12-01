@@ -1409,53 +1409,53 @@
                 .finally(() => (null == o ? void 0 : o()));
             });
           },
-          prefetch(t) {
-            let r;
-            return (r = navigator.connection) &&
-              (r.saveData || /2g/.test(r.effectiveType))
-              ? Promise.resolve()
-              : d(e, t)
-                  .then((e) =>
-                    Promise.all(
-                      c
-                        ? e.scripts.map((e) => {
-                            var t, r, n;
-                            return (
-                              (t = e.toString()),
-                              (r = "script"),
-                              new Promise((e, o) => {
-                                let a = '\n      link[rel="prefetch"][href^="'
-                                  .concat(
-                                    t,
-                                    '"],\n      link[rel="preload"][href^="'
-                                  )
-                                  .concat(t, '"],\n      script[src^="')
-                                  .concat(t, '"]');
-                                if (document.querySelector(a)) return e();
-                                (n = document.createElement("link")),
-                                  r && (n.as = r),
-                                  (n.rel = "prefetch"),
-                                  (n.crossOrigin = void 0),
-                                  (n.onload = e),
-                                  (n.onerror = () =>
-                                    o(
-                                      l(Error("Failed to prefetch: ".concat(t)))
-                                    )),
-                                  (n.href = t),
-                                  document.head.appendChild(n);
-                              })
-                            );
-                          })
-                        : []
-                    )
-                  )
-                  .then(() => {
-                    (0, o.requestIdleCallback)(() =>
-                      this.loadRoute(t, !0).catch(() => {})
-                    );
-                  })
-                  .catch(() => {});
-          },
+          // prefetch(t) {
+          //   let r;
+          //   return (r = navigator.connection) &&
+          //     (r.saveData || /2g/.test(r.effectiveType))
+          //     ? Promise.resolve()
+          //     : d(e, t)
+          //         .then((e) =>
+          //           Promise.all(
+          //             c
+          //               ? e.scripts.map((e) => {
+          //                   var t, r, n;
+          //                   // return (
+          //                   //   (t = e.toString()),
+          //                   //   (r = "script"),
+          //                   //   new Promise((e, o) => {
+          //                   //     let a = '\n      link[rel="prefetch"][href^="'
+          //                   //       .concat(
+          //                   //         t,
+          //                   //         '"],\n      link[rel="preoad"][href^="'
+          //                   //       )
+          //                   //       .concat(t, '"],\n      script[src^="')
+          //                   //       .concat(t, '"]');
+          //                   //     if (document.querySelector(a)) return e();
+          //                   //     (n = document.createElement("link")),
+          //                   //       r && (n.as = r),
+          //                   //       (n.rel = "prefetch"),
+          //                   //       (n.crossOrigin = void 0),
+          //                   //       (n.onload = e),
+          //                   //       (n.onerror = () =>
+          //                   //         o(
+          //                   //           l(Error("Failed to prefetch: ".concat(t)))
+          //                   //         )),
+          //                   //       (n.href = t),
+          //                   //       document.head.appendChild(n);
+          //                   //   })
+          //                   // );
+          //                 })
+          //               : []
+          //           )
+          //         )
+          //         .then(() => {
+          //           (0, o.requestIdleCallback)(() =>
+          //             this.loadRoute(t, !0).catch(() => {})
+          //           );
+          //         })
+          //         .catch(() => {});
+          // },
         };
       }
       ("function" == typeof t.default ||
@@ -1506,7 +1506,7 @@
           },
         },
         s = [
-          "pathname",
+          // "pathname",
           "route",
           "query",
           "asPath",

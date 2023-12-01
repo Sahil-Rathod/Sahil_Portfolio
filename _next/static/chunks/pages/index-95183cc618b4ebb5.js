@@ -609,81 +609,53 @@
                 {
                   date: "March 2023 — Present",
                   company: {
-                    name: "Upstatement",
-                    link: "https://upstatement.com",
+                    name: "Priyams IT Services",
+                    link: "https://www.priyamit.co.in/home",
                   },
-                  positions: ["Lead Engineer", "Senior Engineer", "Engineer"],
-                  desc: "Deliver high-quality, robust production code for a diverse array of projects for clients including Harvard Business School, Everytown for Gun Safety, Pratt Institute, Koala Health, Vanderbilt University, The 19th News, and more. Provide leadership within engineering department through close collaboration, knowledge shares, and mentorship.",
+                  positions: [
+                    "Full Stack Developer",
+                    // "Senior Engineer",
+                    // "Engineer",
+                  ],
+                  desc: " Collaborated as a key member of a cross-functional team, successfully delivering comprehensive web projects to clients in Pune. Leveraging the power of the MERN stack, our collaborative efforts impacted notable companies such as Roommates Mattresses, Khushbu Garments, and Krishna Dealers. From overcoming challenges to implementing innovative solutions, the projects not only met but exceeded client expectations. The success stories reflect the effectiveness of our teamwork, strategic use of technology, and commitment to client satisfaction.",
                   tech: [
+                    "Figma",
                     "React",
-                    "React Native",
-                    "SCSS",
-                    "WordPress",
+                    "CSS",
+                    "Tailwind CSS",
                     "JavaScript",
-                    "TypeScript",
-                    "PHP",
+                    "NodeJS",
+                    "EmailJS",
+                    "Sanity",
                   ],
                 },
                 {
-                  date: "July — Dec 2017",
+                  date: "Jan — Mar 2023",
                   company: {
-                    name: "Apple",
-                    link: "https://www.apple.com/apple-music/",
+                    name: "ReformUP",
+                    link: "https://crezit.netlify.app/",
                   },
-                  positions: ["UI Engineer Co-op"],
-                  desc: "Developed and styled interactive web apps for Apple Music, including the UI of Apple Music’s embeddable web player widget for in-browser user authorization and full song playback.",
-                  tech: ["Ember", "SCSS", "JavaScript", "MusicKit.js"],
-                  links: [
-                    {
-                      title: "MusicKit.js",
-                      url: "https://developer.apple.com/documentation/musickitjs",
-                    },
-                    {
-                      title: "9to5Mac",
-                      url: "https://9to5mac.com/2018/06/03/apple-music-embeddable-web-player-listen-browser/",
-                    },
-                    {
-                      title: "The Verge",
-                      url: "https://www.theverge.com/2017/10/5/16433770/facebook-messenger-apple-music-bot-song-streaming",
-                    },
+                  positions: ["Web Developer"],
+                  desc: "Reformup is a Pune-based startup where I played an active role in the design and development process. My focus is on creating intuitive user interfaces, utilizing cutting-edge technologies like Figma for design, and ReactJs, EmailJs, and Sanity.io for the development phase. This involvement allows me to contribute to the creation of seamless and user-friendly experiences for Reformup's projects, combining my skills in design and proficiency in modern web technologies.",
+                  tech: ["Figma", "ReactJs", "JavaScript", "Sanity"],
+                },
+                {
+                  date: "2022 — 2023",
+                  company: {
+                    name: "JSPM's RSCOE",
+                    link: "https://www.jspmrscoe.edu.in/",
+                  },
+                  positions: ["Team Lead"],
+                  desc: "I actively contributed to developing our college's Alumni Portal, utilizing ReactJS for the frontend, Node.js for backend implementation, and MongoDB for efficient database management. Simultaneously, I played a crucial role in deploying the portal on a cloud-based VPS server hosted on Digital Ocean. This strategic decision not only ensured seamless access for users but also provided high performance, enhancing the overall user experience.",
+                  tech: [
+                    "ReactJS",
+                    "MongoDB",
+                    "JavaScript",
+                    "ExpressJs",
+                    "NodeJS",
+                    "EmailJS",
+                    "Digital Ocean",
                   ],
-                },
-                {
-                  date: "2016 — 2017",
-                  company: {
-                    name: "Scout Studio",
-                    link: "https://scout.camd.northeastern.edu/",
-                  },
-                  positions: ["Developer"],
-                  desc: "Collaborated with other student designers and engineers on pro-bono projects to create new brands, design systems, and websites for organizations in the community.",
-                  tech: ["Jekyll", "SCSS", "JavaScript", "WordPress"],
-                },
-                {
-                  date: "July — Dec 2016",
-                  company: { name: "Starry", link: "https://starry.com/" },
-                  positions: ["Software Engineer Co-op"],
-                  desc: "Worked with the UI team to engineer and improve major features of Starry’s customer-facing Android app.",
-                  tech: ["Cordova", "Backbone", "JavaScript", "CSS"],
-                  links: [
-                    {
-                      title: "Android App",
-                      url: "https://play.google.com/store/apps/details?id=com.starry.management&hl=en_US&gl=US",
-                    },
-                    {
-                      title: "ScreenTime 2.0",
-                      url: "https://starry.com/blog/product/whats-new-screentime-just-got-better-for-parents",
-                    },
-                  ],
-                },
-                {
-                  date: "July — Dec 2015",
-                  company: {
-                    name: "MullenLowe U.S.",
-                    link: "https://us.mullenlowe.com/",
-                  },
-                  positions: ["Creative Technologist Co-op"],
-                  desc: "Developed, maintained, and shipped production code for client websites. Clients included JetBlue, Lovesac, U.S. Cellular, U.S. Department of Defense, and more.",
-                  tech: ["HTML", "CSS", "JavaScript", "jQuery"],
                 },
               ].map((e, t) =>
                 (0, s.jsx)(
@@ -797,7 +769,7 @@
               className: "mt-12",
               children: (0, s.jsx)(m, {
                 title: "View Full R\xe9sum\xe9",
-                url: "/resume.pdf",
+                url: "https://drive.google.com/file/d/15ktJoK644zbKEAbrYFpEfRCKj_IkLfWb/view",
                 className: "font-semibold text-slate-200",
               }),
             }),
@@ -839,7 +811,7 @@
                   "font-medium text-slate-400 hover:text-teal-300 focus-visible:text-teal-300",
                 target: "_blank",
                 rel: "noreferrer",
-                children: "Next.js",
+                children: "React.js",
               }),
               " ",
               "and",
@@ -947,22 +919,22 @@
               children: [
                 {
                   title: "GitHub",
-                  url: "https://github.com/bchiang7",
+                  url: "https://github.com/Sahil-Rathod",
                   icon: "github",
                 },
                 {
                   title: "Instagram",
-                  url: "https://instagram.com/bchiang7",
+                  url: "https://www.instagram.com/s.v.r_rathod_/",
                   icon: "instagram",
                 },
                 {
                   title: "Twitter",
-                  url: "https://twitter.com/bchiang7",
+                  url: "https://twitter.com7",
                   icon: "twitter",
                 },
                 {
                   title: "LinkedIn",
-                  url: "https://www.linkedin.com/in/bchiang7/",
+                  url: "https://www.linkedin.com/in/sahilrathod/",
                   icon: "linkedin",
                 },
               ].map((e, t) =>
@@ -999,7 +971,7 @@
             [a, l] = (0, r.useState)(null);
           return ((0, r.useEffect)(() => {
             let e = t.split("/")[4];
-            fetch("https://api.github.com/repos/bchiang7/".concat(e))
+            fetch("https://api.github.com/repos/".concat(e))
               .then((e) => e.json())
               .then((e) => {
                 let { stargazers_count: t } = e;
@@ -1032,9 +1004,9 @@
               className: "group/list",
               children: [
                 {
-                  title: "Build a Spotify Connected App",
-                  link: "https://www.newline.co/courses/build-a-spotify-connected-app",
-                  image: "/images/projects/course-card.png",
+                  title: "RSCOE Alumni Portal",
+                  link: "https://www.rscoealumni.in/",
+                  image: new URL("https://source.unsplash.com/random/800x600"),
                   desc: "Video course that teaches how to build a web app with the Spotify Web API. Topics covered include the principles of REST APIs, user auth flows, Node, Express, React, Styled Components, and more.",
                 },
                 {
